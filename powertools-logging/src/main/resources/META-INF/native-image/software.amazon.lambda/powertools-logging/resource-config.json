@@ -1,0 +1,157 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QLambdaJsonLayout.json\\E"
+  }, {
+    "pattern":"\\QMETA-INF/log4j-provider.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.parsers.DocumentBuilderFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.core.util.ContextDataProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.core.util.WatchEventService\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.spi.Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.util.PropertySource\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.assertj.core.configuration.Configuration\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.assertj.core.presentation.Representation\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.engine.TestEngine\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherDiscoveryListener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherSessionListener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.PostDiscoveryFilter\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.TestExecutionListener\\E"
+  }, {
+    "pattern":"\\QStackTraceElementLayout.json\\E"
+  }, {
+    "pattern":"\\QalbEvent.json\\E"
+  }, {
+    "pattern":"\\QapiGatewayProxyEventV1.json\\E"
+  }, {
+    "pattern":"\\QapiGatewayProxyEventV2.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/lambda/thirdparty/org/joda/time/tz/data/Europe/Berlin\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/lambda/thirdparty/org/joda/time/tz/data/ZoneInfoMap\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/albEvent.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/apiGatewayProxyEventV1.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/apiGatewayProxyEventV2.json\\E"
+  }, {
+    "pattern":"\\QcustomizedLogEvent.json\\E"
+  }, {
+    "pattern":"\\Qjava/lang/reflect/AccessibleObject.class\\E"
+  }, {
+    "pattern":"\\Qjunit-platform.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.StatusLogger.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.component.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.system.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.yml\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.AnnotationEngine\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.DoNotMockEnforcer\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.InstantiatorProvider2\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MemberAccessor\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockMaker\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockResolver\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockitoLogger\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.PluginSwitch\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.StackTraceCleanerProvider\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForEquals.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForHashCode.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForStatic.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.raw\\E"
+  }, {
+    "pattern":"\\Qs3EventNotification.json\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/reflect/AccessibleObject.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/nfc.nrm\\E"
+  }, {
+    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/query/view.ini\\E"
+  }]},
+  "bundles":[]
+}
