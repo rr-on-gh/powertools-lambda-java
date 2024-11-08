@@ -59,8 +59,6 @@
   }, {
     "pattern":"\\QcustomizedLogEvent.json\\E"
   }, {
-    "pattern":"\\Qjava/lang/reflect/AccessibleObject.class\\E"
-  }, {
     "pattern":"\\Qjunit-platform.properties\\E"
   }, {
     "pattern":"\\Qlog4j2-test.jsn\\E"
@@ -135,23 +133,7 @@
   }, {
     "pattern":"\\Qmockito-extensions/org.mockito.plugins.StackTraceCleanerProvider\\E"
   }, {
-    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForEquals.class\\E"
-  }, {
-    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForHashCode.class\\E"
-  }, {
-    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForStatic.class\\E"
-  }, {
-    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/MockMethodAdvice.class\\E"
-  }, {
-    "pattern":"\\Qorg/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.raw\\E"
-  }, {
     "pattern":"\\Qs3EventNotification.json\\E"
-  }, {
-    "pattern":"java.base:\\Qjava/lang/reflect/AccessibleObject.class\\E"
-  }, {
-    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/nfc.nrm\\E"
-  }, {
-    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/query/view.ini\\E"
   }]},
   "bundles":[]
 }
