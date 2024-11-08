@@ -65,7 +65,7 @@ import static software.amazon.lambda.powertools.core.internal.SystemWrapper.gete
 
 class LambdaLoggingAspectTest {
 
-    private static final int EXPECTED_CONTEXT_SIZE = 8;
+    private static final int EXPECTED_CONTEXT_SIZE = 7;
     private RequestStreamHandler requestStreamHandler;
     private RequestHandler<Object, Object> requestHandler;
 
