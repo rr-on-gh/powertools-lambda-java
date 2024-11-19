@@ -439,7 +439,9 @@
   "name":"org.apache.logging.log4j.core.appender.AsyncAppender"
 },
 {
-  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender"
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
 },
 {
   "name":"org.apache.logging.log4j.core.appender.CountingNoOpAppender"
