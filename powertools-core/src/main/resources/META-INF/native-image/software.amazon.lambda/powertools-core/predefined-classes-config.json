@@ -1,42 +1,7 @@
 [
   {
     "type":"agent-extracted",
-    "classes":[
-      { "nameInfo":"org/mockito/codegen/Context$MockitoMock$0a0jka3op99200N", "hash":"0f37fc6a19526ab45bd8fbe92a9e218b88fc188690bb0d9e04c2da62599aa25a" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$sdtuvq2S", "hash":"41d519f1ce3a1651c1e7eb6ab883d2ad34816bbbb8d3ac3495ab858b6d088439" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$61dq1j0S", "hash":"95dc076c943311e90855770e8394b1f9af92a6efcaf53b780f5fc557e881703d" },
-      { "nameInfo":"org/mockito/codegen/Context$MockitoMock$0a0jka3op99200N$auxiliary$4cscpe1S", "hash":"28359ed0dbb69a571c7da786a4f246ce602c9d5506421ace82ca324f646c6b19" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$4cscpe1S", "hash":"e6b254248e2b1c627fdc4c680a7a798c84dc6769e0e1af8a041d0b11ad245062" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$ruanc62S", "hash":"7653b085efb16aae8d93e91fa75bc9a922c2c0b2e0bd7972ce3a78f689b3b4b3" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$7m9oaq0S", "hash":"273415600efce9ccccd99bac19f42a0b2c6a76dc4d0fd5ad56c669bfbbc41622" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$3dkej41S", "hash":"386e63c53b6704f3a54752fb05205a1d9b44474a458f83d65e0b2ecf7bea6901" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$v4pu6u2S", "hash":"83cb39232c0ae6ad6036239b558d048d4314be6c9993605fd83239c781e26e25" },
-      { "nameInfo":"org/mockito/codegen/Signature$MockitoMock$u9ge1d0op99200N$auxiliary$4cscpe1S", "hash":"f9e4a4a1a3ac1fc21d9f6d3ce18fa728006d26635da9b973a1b891c1cfc5b854" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$tdultp0S", "hash":"2eea372f0cbbf58f450ad831d21608bccb6abd891b37bd9dd1a90b1f58b127a6" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$4cscpe1S", "hash":"c4190e37480827d1d8b5232667e3e78eac92b5b735e66084bdf8f9a1e6a2d699" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$nga3le0S", "hash":"fa3bd1977fd95cd1de8876b090242366c15601a78b08c43054b68df3986fb435" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$8u4a0p2S", "hash":"47ae46da44bf1d285cdf00e71b58aa7efd74034b331fe211cc4a485034967ce1" },
-      { "nameInfo":"org/mockito/codegen/ProceedingJoinPoint$MockitoMock$obec860op99200N$auxiliary$7m9oaq0S", "hash":"8688508fe8655af6be6e1c73777125b43a152429311e8aba554764d9a4dc522c" },
-      { "nameInfo":"org/mockito/codegen/Signature$MockitoMock$u9ge1d0op99200N$auxiliary$7m9oaq0S", "hash":"8d358eda5b531864de8206c42200b914266bcc48e6b640a907ecd70d9957b86d" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$31th5u2S", "hash":"6eda58285f0a3a06a7aeca4b698ba9363b6844864bcc0ae4fc59f132c708af4e" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$7l284i2S", "hash":"0577d4c17eb8677af610f4708f038a97c3603c96971f0088526e4240e1b1fcd6" },
-      { "nameInfo":"net/bytebuddy/utility/Invoker$Dispatcher", "hash":"e2287dd9a99b917a94b60de66cef6e04408600d5daa218dfdf0364d9e2e006ae" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$rf00bo2S", "hash":"2cb89306508909b99d0eb047728bce5dc5ec68bb15aa2b0d98ba930e4363def2" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$4mh2293S", "hash":"455af57fd6347d57cd6929a1532a120ab82e553543cb5d31517959726ea0293b" },
-      { "nameInfo":"org/mockito/codegen/ProceedingJoinPoint$MockitoMock$obec860op99200N", "hash":"295af05b338c38f4c7a98b866983ad48c182614cba386b4cef3caecb787f8ec8" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N", "hash":"d5b3dbfca6bcc6d72256f84237addbb45389854fef020f2163ae4b5259c636b1" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$e5kl3q2S", "hash":"458f06cd8c2eac7e01db87f90159758689c9c0a4be5c53689dfeb80a3ea29246" },
-      { "nameInfo":"org/mockito/codegen/Signature$MockitoMock$u9ge1d0op99200N", "hash":"71b08c038fe87d6f50d6ae4a22ae564cb442fcc9f7c7f9a2e29e945ac27f741f" },
-      { "nameInfo":"org/mockito/codegen/ProceedingJoinPoint$MockitoMock$obec860op99200N$auxiliary$4cscpe1S", "hash":"069a8bf1a8d6c6094e80263aa59d56d0383a97c2a7a5a405ed661e3df894a1c8" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$e83h9q2S", "hash":"a46772faa3d8be040083d726ac13941a553d56a868427eae6b9a14664098ee4b" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N", "hash":"146e3d7aeff39531bd4bad04e373c695f98bfa2f8c69fe841af2e711db3d849d" },
-      { "nameInfo":"org/mockito/codegen/Context$MockitoMock$0a0jka3op99200N$auxiliary$7m9oaq0S", "hash":"4243f8dd54c98ac3c8b9daeb1f81081dc76e48858265e8cec65513252b251934" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$3g3ap41S", "hash":"4e19f187b4256263345d8c6281b032d68064e4463a864afa6e3da6468f4b6fc0" },
-      { "nameInfo":"org/mockito/codegen/ProceedingJoinPoint$MockitoMock$obec860op99200N$auxiliary$djgi9f3S", "hash":"8428a105644077a7ebd81658fa886704047bbdb27cebe207085ed807779cfb86" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$bgeojo2S", "hash":"c2b2e9f22be768b0e07b5cd20a5ec697099a5aed86cd5ff9633cf948ce0dfe6f" },
-      { "nameInfo":"org/mockito/codegen/OutputStream$MockitoMock$tvkq1p0op99200N$auxiliary$7m9oaq0S", "hash":"755e8d4988e0fc7589ddcd11f2f2a9370210f8476b0bdb48a29fb923e1fe4dd3" },
-      { "nameInfo":"org/mockito/codegen/InputStream$MockitoMock$e273ro0op99200N$auxiliary$r1nrne2S", "hash":"35b559dad4305ef8e3ec9f5a655528f3b9cf192d73bc8d1ed0df4dea4faa3bad" }
-    ]
+    "classes":[]
   }
 ]
 

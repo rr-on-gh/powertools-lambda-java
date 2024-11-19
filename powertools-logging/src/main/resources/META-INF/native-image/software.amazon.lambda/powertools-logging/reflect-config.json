@@ -197,16 +197,6 @@
   "methods":[{"name":"getPrincipalId","parameterTypes":[] }]
 },
 {
-  "name":"com.amazonaws.services.lambda.runtime.tests.EventArgumentsProvider",
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.amazonaws.services.lambda.runtime.tests.annotations.Event",
-  "queryAllPublicMethods":true
-},
-{
   "name":"com.fasterxml.jackson.core.JsonParser"
 },
 {
@@ -433,167 +423,6 @@
 },
 {
   "name":"kotlin.jvm.JvmInline"
-},
-{
-  "name":"net.bytebuddy.agent.Installer",
-  "methods":[{"name":"agentmain","parameterTypes":["java.lang.String","java.lang.instrument.Instrumentation"] }, {"name":"getInstrumentation","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.description.method.MethodDescription$InDefinedShape$AbstractBase$Executable",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.method.ParameterDescription$ForLoadedParameter$Parameter",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.method.ParameterList$ForLoadedExecutable$Executable",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDefinition$Sort$AnnotatedType",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDescription$ForLoadedType$Dispatcher",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableExceptionType$Dispatcher",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableParameterType$Dispatcher",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedMethodReturnType$Dispatcher",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForComponentType$AnnotatedParameterizedType",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.AllArguments",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"includeSelf","parameterTypes":[] }, {"name":"nullIfEmpty","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.Argument",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"bindingMechanic","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.Argument$BindingMechanic"
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.BindingPriority",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"value","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.Default",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.DefaultCall",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.DefaultCallHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.DefaultMethod",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.DefaultMethodHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.FieldGetterHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.FieldSetterHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.FieldValue",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"declaringType","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.Origin",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"cache","parameterTypes":[] }, {"name":"privileged","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.StubValue",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.Super",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.SuperCall",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"fallbackToDefault","parameterTypes":[] }, {"name":"nullIfImpossible","parameterTypes":[] }, {"name":"serializableProxy","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.SuperCallHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.SuperMethod",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.SuperMethodHandle",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"net.bytebuddy.implementation.bind.annotation.This",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"optional","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.utility.Invoker",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.utility.Invoker$Dispatcher",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.bytebuddy.utility.JavaModule$Module",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.bytebuddy.utility.JavaModule$Resolver",
-  "queryAllPublicMethods":true
 },
 {
   "name":"org.apache.logging.log4j.core.appender.AbstractAppender$Builder",
@@ -1085,15 +914,6 @@
   "name":"org.apache.logging.log4j.core.layout.JsonLayout"
 },
 {
-  "name":"org.apache.logging.log4j.core.layout.LambdaJsonLayoutTest",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setUp","parameterTypes":[] }, {"name":"shouldLogInStructuredFormat","parameterTypes":[] }, {"name":"shouldLogWithRFC3339TimestampFormat_WhenLambdaLoggingIsJSON","parameterTypes":[] }, {"name":"shouldModifyLogLevelBasedOnEnvVariable","parameterTypes":[] }, {"name":"shouldModifyLogLevelBasedOnSamplingRule","parameterTypes":[] }]
-},
-{
   "name":"org.apache.logging.log4j.core.layout.LevelPatternSelector"
 },
 {
@@ -1498,10 +1318,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"org.apache.maven.surefire.junitplatform.JUnitPlatformProvider",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.api.provider.ProviderParameters"] }]
-},
-{
   "name":"org.apiguardian.api.API",
   "queryAllPublicMethods":true
 },
@@ -1544,145 +1360,11 @@
   "queryAllDeclaredMethods":true
 },
 {
-  "name":"org.junit.internal.AssumptionViolatedException"
-},
-{
-  "name":"org.junit.jupiter.api.Test",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.TestTemplate",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.extension.ExtendWith",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.ParameterizedTest",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.ParameterizedTestExtension",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.junit.jupiter.params.provider.ArgumentsProvider",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.provider.ArgumentsSource",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.support.AnnotationConsumer",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.platform.commons.annotation.Testable",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.junit.platform.launcher.LauncherSession",
-  "methods":[{"name":"getLauncher","parameterTypes":[] }]
-},
-{
-  "name":"org.junit.platform.launcher.core.LauncherFactory",
-  "methods":[{"name":"openSession","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.Mock",
-  "queryAllPublicMethods":true
-},
-{
-  "name":"org.mockito.codegen.Context$MockitoMock$0a0jka3op99200N"
-},
-{
-  "name":"org.mockito.codegen.Context$MockitoMock$0a0jka3op99200N$auxiliary$4cscpe1S"
-},
-{
-  "name":"org.mockito.codegen.Context$MockitoMock$0a0jka3op99200N$auxiliary$7m9oaq0S"
-},
-{
-  "name":"org.mockito.configuration.MockitoConfiguration"
-},
-{
-  "name":"org.mockito.internal.configuration.DefaultDoNotMockEnforcer",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.configuration.InjectingAnnotationEngine",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.configuration.plugins.DefaultPluginSwitch",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.MockAccess",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForEquals",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForHashCode",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForWriteReplace",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.creation.instance.DefaultInstantiatorProvider",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.util.ConsoleMockitoLogger",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"org.mockito.internal.util.reflection.ModuleMemberAccessor",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"org.osgi.framework.FrameworkUtil"
 },
 {
   "name":"software.amazon.lambda.powertools.core.internal.LambdaHandlerProcessor",
   "fields":[{"name":"IS_COLD_START"}, {"name":"SERVICE_NAME"}]
-},
-{
-  "name":"software.amazon.lambda.powertools.logging.LoggingUtilsTest",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setUp","parameterTypes":[] }, {"name":"shouldRemoveCustomKeyOnThreadContext","parameterTypes":[] }, {"name":"shouldRemoveCustomKeysOnThreadContext","parameterTypes":[] }, {"name":"shouldSetCustomKeyAsMapOnThreadContext","parameterTypes":[] }, {"name":"shouldSetCustomKeyOnThreadContext","parameterTypes":[] }]
 },
 {
   "name":"software.amazon.lambda.powertools.logging.handlers.PowerLogToolApiGatewayHttpApiCorrelationId",
@@ -1871,15 +1553,6 @@
   "name":"software.amazon.lambda.powertools.logging.internal.LambdaLoggingAspect",
   "fields":[{"name":"LEVEL_AT_INITIALISATION"}, {"name":"LOG_EVENT"}],
   "methods":[{"name":"resetLogLevels","parameterTypes":["org.apache.logging.log4j.Level"] }]
-},
-{
-  "name":"software.amazon.lambda.powertools.logging.internal.LambdaLoggingAspectTest",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setUp","parameterTypes":[] }, {"name":"shouldHaveNoEffectIfNotUsedOnLambdaHandler","parameterTypes":[] }, {"name":"shouldLogAndClearLogContextOnEachRequest","parameterTypes":[] }, {"name":"shouldLogCorrelationIdOnALBEvent","parameterTypes":["com.amazonaws.services.lambda.runtime.events.ApplicationLoadBalancerRequestEvent"] }, {"name":"shouldLogCorrelationIdOnAPIGatewayProxyRequestEvent","parameterTypes":["com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent"] }, {"name":"shouldLogCorrelationIdOnAPIGatewayV2HTTPEvent","parameterTypes":["com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent"] }, {"name":"shouldLogCorrelationIdOnStreamHandler","parameterTypes":[] }, {"name":"shouldLogEventForHandler","parameterTypes":[] }, {"name":"shouldLogEventForHandlerWhenEnvVariableSetToTrue","parameterTypes":[] }, {"name":"shouldLogEventForHandlerWithOverriddenObjectMapper","parameterTypes":[] }, {"name":"shouldLogEventForStreamAndLambdaStreamIsValid","parameterTypes":[] }, {"name":"shouldLogServiceNameWhenEnvVarSet","parameterTypes":[] }, {"name":"shouldNotLogEventForHandlerWhenEnvVariableSetToFalse","parameterTypes":[] }, {"name":"shouldNotSetLambdaContextForStreamHandlerWhenDisabled","parameterTypes":[] }, {"name":"shouldNotSetLambdaContextWhenDisabled","parameterTypes":[] }, {"name":"shouldSetColdStartFlag","parameterTypes":[] }, {"name":"shouldSetLambdaContextForStreamHandlerWhenEnabled","parameterTypes":[] }, {"name":"shouldSetLambdaContextWhenEnabled","parameterTypes":[] }]
 },
 {
   "name":"software.amazon.lambda.powertools.logging.internal.LambdaTimestampResolverFactory",

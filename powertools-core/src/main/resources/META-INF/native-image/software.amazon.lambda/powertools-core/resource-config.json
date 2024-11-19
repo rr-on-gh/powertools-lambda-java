@@ -93,24 +93,6 @@
   }, {
     "pattern":"\\Qlog4j218b4aac2.yml\\E"
   }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.AnnotationEngine\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.DoNotMockEnforcer\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.InstantiatorProvider2\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MemberAccessor\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockMaker\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockResolver\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockitoLogger\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.PluginSwitch\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.StackTraceCleanerProvider\\E"
-  }, {
     "pattern":"\\Qsome file\\E"
   }, {
     "pattern":"\\Qtest.properties\\E"

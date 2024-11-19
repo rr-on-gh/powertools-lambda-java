@@ -29,16 +29,6 @@
   }, {
     "pattern":"\\QMETA-INF/services/org.assertj.core.presentation.Representation\\E"
   }, {
-    "pattern":"\\QMETA-INF/services/org.junit.platform.engine.TestEngine\\E"
-  }, {
-    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherDiscoveryListener\\E"
-  }, {
-    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherSessionListener\\E"
-  }, {
-    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.PostDiscoveryFilter\\E"
-  }, {
-    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.TestExecutionListener\\E"
-  }, {
     "pattern":"\\QStackTraceElementLayout.json\\E"
   }, {
     "pattern":"\\QalbEvent.json\\E"
@@ -58,8 +48,6 @@
     "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/apiGatewayProxyEventV2.json\\E"
   }, {
     "pattern":"\\QcustomizedLogEvent.json\\E"
-  }, {
-    "pattern":"\\Qjunit-platform.properties\\E"
   }, {
     "pattern":"\\Qlog4j2-test.jsn\\E"
   }, {
@@ -114,24 +102,6 @@
     "pattern":"\\Qlog4j218b4aac2.yaml\\E"
   }, {
     "pattern":"\\Qlog4j218b4aac2.yml\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.AnnotationEngine\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.DoNotMockEnforcer\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.InstantiatorProvider2\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MemberAccessor\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockMaker\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockResolver\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockitoLogger\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.PluginSwitch\\E"
-  }, {
-    "pattern":"\\Qmockito-extensions/org.mockito.plugins.StackTraceCleanerProvider\\E"
   }, {
     "pattern":"\\Qs3EventNotification.json\\E"
   }]},
