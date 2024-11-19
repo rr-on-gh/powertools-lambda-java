@@ -161,6 +161,7 @@
                                 <buildArg>-H:ClassInitialization=net.bytebuddy.utility.dispatcher.JavaDispatcher:rerun</buildArg>
                                 <buildArg>-H:ClassInitialization=net.bytebuddy.utility.Invoker$Dispatcher:rerun</buildArg>
                                 <buildArg>-H:ClassInitialization=net.bytebuddy.utility.GraalImageCode:rerun</buildArg>
+                                <buildArg>-H:IncludeResources=version.properties</buildArg>
                                 <buildArg>--initialize-at-build-time=org.slf4j.simple.SimpleLogger</buildArg>
                                 <buildArg>--initialize-at-build-time=org.slf4j.LoggerFactory</buildArg>
                                 <buildArg>--initialize-at-build-time=org.junit.Ignore</buildArg>
