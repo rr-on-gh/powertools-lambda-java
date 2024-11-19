@@ -1,0 +1,293 @@
+[
+{
+  "name":"Sample",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"m","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"forName","parameterTypes":["java.lang.String"] }, {"name":"getAnnotatedInterfaces","parameterTypes":[] }, {"name":"getAnnotatedSuperclass","parameterTypes":[] }, {"name":"getDeclaredMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }, {"name":"getMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }, {"name":"getModule","parameterTypes":[] }, {"name":"getNestHost","parameterTypes":[] }, {"name":"getNestMembers","parameterTypes":[] }, {"name":"getPermittedSubclasses","parameterTypes":[] }, {"name":"getRecordComponents","parameterTypes":[] }, {"name":"isNestmateOf","parameterTypes":["java.lang.Class"] }, {"name":"isRecord","parameterTypes":[] }, {"name":"isSealed","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"getPackage","parameterTypes":["java.lang.String"] }, {"name":"getUnnamedModule","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[{"name":"addExports","parameterTypes":["java.lang.String","java.lang.Module"] }, {"name":"addReads","parameterTypes":["java.lang.Module"] }, {"name":"canRead","parameterTypes":["java.lang.Module"] }, {"name":"getClassLoader","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getResourceAsStream","parameterTypes":["java.lang.String"] }, {"name":"isExported","parameterTypes":["java.lang.String"] }, {"name":"isExported","parameterTypes":["java.lang.String","java.lang.Module"] }, {"name":"isNamed","parameterTypes":[] }, {"name":"isOpen","parameterTypes":["java.lang.String","java.lang.Module"] }]
+},
+{
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"clone","parameterTypes":[] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Runtime",
+  "methods":[{"name":"version","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Runtime$Version",
+  "methods":[{"name":"major","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.SecurityManager",
+  "methods":[{"name":"checkPermission","parameterTypes":["java.security.Permission"] }]
+},
+{
+  "name":"java.lang.System",
+  "methods":[{"name":"getSecurityManager","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.annotation.Retention",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.annotation.Target",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"lookup","parameterTypes":[] }, {"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[{"name":"defineClass","parameterTypes":["byte[]"] }, {"name":"lookupClass","parameterTypes":[] }, {"name":"lookupModes","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedArrayType",
+  "methods":[{"name":"getAnnotatedGenericComponentType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedType",
+  "methods":[{"name":"getType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Executable",
+  "methods":[{"name":"getAnnotatedExceptionTypes","parameterTypes":[] }, {"name":"getAnnotatedParameterTypes","parameterTypes":[] }, {"name":"getAnnotatedReceiverType","parameterTypes":[] }, {"name":"getParameterCount","parameterTypes":[] }, {"name":"getParameters","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"getAnnotatedReturnType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Parameter",
+  "methods":[{"name":"getModifiers","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"isNamePresent","parameterTypes":[] }]
+},
+{
+  "name":"java.security.AccessController",
+  "methods":[{"name":"doPrivileged","parameterTypes":["java.security.PrivilegedExceptionAction"] }]
+},
+{
+  "name":"kotlin.jvm.JvmInline"
+},
+{
+  "name":"net.bytebuddy.description.method.MethodDescription$InDefinedShape$AbstractBase$Executable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.method.ParameterDescription$ForLoadedParameter$Parameter",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.method.ParameterList$ForLoadedExecutable$Executable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDefinition$Sort$AnnotatedType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDescription$ForLoadedType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableExceptionType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableParameterType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedMethodReturnType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForComponentType$AnnotatedParameterizedType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.dynamic.loading.ClassInjector$UsingLookup$MethodHandles",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.dynamic.loading.ClassInjector$UsingLookup$MethodHandles$Lookup",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$System",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.AllArguments",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"includeSelf","parameterTypes":[] }, {"name":"nullIfEmpty","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Argument",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"bindingMechanic","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Argument$BindingMechanic"
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.BindingPriority",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Default",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultCall",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultMethod",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.FieldValue",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"declaringType","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Origin",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"cache","parameterTypes":[] }, {"name":"privileged","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.StubValue",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Super",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.SuperCall",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"fallbackToDefault","parameterTypes":[] }, {"name":"nullIfImpossible","parameterTypes":[] }, {"name":"serializableProxy","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.SuperMethod",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.This",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"optional","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.utility.Invoker",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.utility.Invoker$Dispatcher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.bytebuddy.utility.JavaModule$Module",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"net.bytebuddy.utility.JavaModule$Resolver",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.mockito.configuration.MockitoConfiguration"
+},
+{
+  "name":"org.mockito.internal.configuration.DefaultDoNotMockEnforcer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.configuration.InjectingAnnotationEngine",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.configuration.plugins.DefaultPluginSwitch",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockAccess",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForEquals",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForHashCode",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForWriteReplace",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.mockito.internal.creation.instance.DefaultInstantiatorProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.util.ConsoleMockitoLogger",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.mockito.internal.util.reflection.ReflectionMemberAccessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.SharedSecrets"
+},
+{
+  "name":"sun.reflect.ReflectionFactory",
+  "methods":[{"name":"getReflectionFactory","parameterTypes":[] }, {"name":"newConstructorForSerialization","parameterTypes":["java.lang.Class","java.lang.reflect.Constructor"] }]
+}
+]
