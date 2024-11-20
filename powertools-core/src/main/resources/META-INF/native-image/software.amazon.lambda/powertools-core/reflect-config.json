@@ -890,24 +890,6 @@
   "name":"org.osgi.framework.FrameworkUtil"
 },
 {
-  "name":"software.amazon.lambda.powertools.core.internal.LambdaHandlerProcessorTest",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"extractContext_fromRequestHandler","parameterTypes":[] }, {"name":"extractContext_fromStreamRequestHandler","parameterTypes":[] }, {"name":"extractContext_notKnownHandler","parameterTypes":[] }, {"name":"isColdStart","parameterTypes":[] }, {"name":"isColdStart_coldStartDone","parameterTypes":[] }, {"name":"isHandlerMethod_shouldRecognizeRequestHandler","parameterTypes":[] }, {"name":"isHandlerMethod_shouldRecognizeRequestStreamHandler","parameterTypes":[] }, {"name":"isHandlerMethod_shouldReturnFalse","parameterTypes":[] }, {"name":"placedOnRequestHandler_shouldInvalidateOnWrongNoOfArgs","parameterTypes":[] }, {"name":"placedOnRequestHandler_shouldInvalidateOnWrongTypeOfArgs","parameterTypes":[] }, {"name":"placedOnRequestHandler_shouldRecognizeRequestHandler","parameterTypes":[] }, {"name":"placedOnStreamHandler_shouldInvalidateOnTypeOfArgs_invalidContextArg","parameterTypes":[] }, {"name":"placedOnStreamHandler_shouldInvalidateOnTypeOfArgs_invalidOutputStreamArg","parameterTypes":[] }, {"name":"placedOnStreamHandler_shouldInvalidateOnWrongNoOfArgs","parameterTypes":[] }, {"name":"placedOnStreamHandler_shouldInvalidateOnWrongTypeOfArgs","parameterTypes":[] }, {"name":"placedOnStreamHandler_shouldRecognizeRequestStreamHandler","parameterTypes":[] }]
-},
-{
-  "name":"software.amazon.lambda.powertools.core.internal.UserAgentConfiguratorTest",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testGetUserAgent","parameterTypes":[] }, {"name":"testGetUserAgent_NoFeature","parameterTypes":[] }, {"name":"testGetUserAgent_NullFeature","parameterTypes":[] }, {"name":"testGetVersion","parameterTypes":[] }, {"name":"testGetVersionFromProperties_EmptyVersion","parameterTypes":[] }, {"name":"testGetVersionFromProperties_FileNotExist","parameterTypes":[] }, {"name":"testGetVersionFromProperties_InvalidFile","parameterTypes":[] }, {"name":"testGetVersionFromProperties_WrongKey","parameterTypes":[] }]
-},
-{
   "name":"sun.reflect.ReflectionFactory",
   "methods":[{"name":"getReflectionFactory","parameterTypes":[] }, {"name":"newConstructorForSerialization","parameterTypes":["java.lang.Class","java.lang.reflect.Constructor"] }]
 }
