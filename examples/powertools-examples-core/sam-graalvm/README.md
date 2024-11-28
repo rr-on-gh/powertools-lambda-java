@@ -16,18 +16,8 @@ This file defines the Lambda function to be deployed as well as API Gateway for 
 
 - Build the SAM project using the docker image
 ```shell
-    sam build --use-container --build-image sam/custom-graal-image 
+    sam build --use-container --build-image powertools-examples-core-sam-graalvm
 
-```
-
-- Build the binary without SAM build. This is needed during development when SNAPSHOT JARs are not available for download from mvn central from the docker image
-```shell
-       docker run --platform linux/amd64  -it -v `pwd`:`pwd` -w `pwd` -v ~/.m2:/root/.m2 powertools-examples-core-sam-graalvm mvn clean -Pnative-image package -DskipTests
-       mkdir -p .aws-sam/build/HelloWorldFunction/
-       cp target/hello-world .aws-sam/build/HelloWorldFunction/
-       cp src/main/config/bootstrap .aws-sam/build/HelloWorldFunction/
-       chmod +x .aws-sam/build/HelloWorldFunction/bootstrap
-       chmod +x .aws-sam/build/HelloWorldFunction/hello-world
 ```
 
 - SAM deploy
